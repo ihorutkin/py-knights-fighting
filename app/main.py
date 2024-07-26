@@ -6,7 +6,7 @@ from app.characters.red_knight import red_knight
 from app.characters.list_of_knight import list_of_knight
 
 
-def battle(knights_config: list) -> None:
+def battle(knights_config: list) -> dict:
     # BATTLE PREPARATIONS:
 
     for knight in knights_config:
